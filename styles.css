@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0 auto;
+  max-width: 500px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #99a5e8;
+}
+
+.createNew{
+  background-color: #253959;
+  border-radius: 5px;
+  height: 50px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+button{
+  border: 2px solid #99a5e8;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button, input{
+  background-color: transparent;
+  color: #99a5e8;
+  margin: 10px;
+}
+
+input{
+  border-style:solid;
+  border: none;
+  outline: none;
+  width: 420px;
+  font-size: 20px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  background-color: #253959;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  color: #99a5e8;
+  font-size: 20px;
+}
+li span{
+  float: right;
+  cursor: pointer;
+  color: #99a5e8;
+}
